@@ -1,0 +1,176 @@
+%%%%%%%%%%%%%%%%%
+% Andrea Adelfio - CV in AltaCV Format
+%%%%%%%%%%%%%%%%%
+
+\documentclass[9pt,a4paper,withhyper,normalphoto]{altacv}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=0.6cm}
+\usepackage{paracol}
+\usepackage{ragged2e}
+
+% Font
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{helvet}
+
+% Europass-like colors
+\definecolor{europassblue}{HTML}{003399}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+
+\colorlet{name}{black}
+\colorlet{tagline}{europassblue}
+\colorlet{heading}{europassblue}
+\colorlet{headingrule}{europassblue}
+\colorlet{subheading}{europassblue}
+\colorlet{accent}{europassblue}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\namefont}{\Huge\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+\begin{document}
+
+\name{Andrea Adelfio}
+\tagline{Data Scientist | ML Engineer | Software Engineer}
+\photoL{3.2cm}{picture}
+
+\personalinfo{
+  \email{and.adelfio@gmail.com}
+  \phone{+39 389 162 5750}
+  \location{Munich, Germany | \textbf{Open to EU Relocation}}
+  \linkedin{andrea-adelfio-8544211b4}
+  \github{andreaadelfio}
+}
+
+\makecvheader
+
+\columnratio{0.28}
+\begin{paracol}{2}
+
+
+\cvsection{Tech Skills}
+
+\cvsubsection{Programming}
+\cvtag{Python (Expert)}\cvtag{SQL (Expert)}
+\cvtag{Java (Proficient)}\cvtag{Bash}
+\cvtag{JavaScript}\cvtag{C/C++}\cvtag{\LaTeX}
+
+% \divider\smallskip
+
+\cvsubsection{Machine Learning \& AI}
+\cvtag{Deep Learning}\cvtag{Bayesian Neural Networks} \\
+\cvtag{Anomaly Detection}\cvtag{Time Series Analysis} \\
+\cvtag{TensorFlow, PyTorch, Keras}
+
+% \divider\smallskip
+
+\cvsubsection{Data Engineering \& DevOps}
+\cvtag{Docker}\cvtag{Kubernetes}\cvtag{Git}\cvtag{CI/CD}\cvtag{HPC}\cvtag{Data Lakes}
+\cvtag{Atlassian (Jira, Confluence...)}
+
+\cvsection{Education}
+
+\cvevent{M.Sc. in Physics (EQF 7)}{University of Trieste}{2018 -- 2020}{}
+Thesis: \emph{Gravitational Wave Counterparts Detection with CTA}.  
+Final grade: 101/110.
+
+\divider
+
+\cvevent{B.Sc. in Physics (EQF 6)}{University of Cagliari}{2015 -- 2018}{}
+Final grade: 97/110.
+
+\cvsection{Languages}
+-\textbf{Italian} (Mother tongue) 
+
+-\textbf{English} (C2 – Cambridge C2 Proficiency, score 202)  
+
+-\textbf{German} (B1)
+
+\cvsection{Certifications \& Courses}
+-\textbf{School on Open Science Cloud} (kw: MLOps, Docker, Kubernetes)
+
+-\textbf{Container Fundamentals for Scientific Research} (kw: Docker, Kubernetes)
+
+-\textbf{High Performance Computing} (kw: HPC, c++, openmp)
+
+-\textbf{Uncertainty Quantification for Machine Learning}
+
+-\textbf{FPGA Programming}
+\switchcolumn
+
+
+\cvsection{Professional Profile}
+\begin{quote}
+\begin{justify}
+
+Profile with five years of dual experience as Data Scientist, with a background in Artificial Intelligence and Machine Learning applied to data and time series analysis, and as Software Developer with expertise in Agile methodologies (Scrum) and CI/CD practices.
+
+Ability to work across research and industrial contexts, with direct involvement in machine learning model development, software engineering and data infrastructures, in domains from the banking sector to satellite monitoring.
+\end{justify}
+
+\end{quote}
+
+\cvsection{Work Experience}
+
+\cvevent{Data Scientist \& ML Engineer}
+{Italian Research Center on High Performance Computing, Big Data and Quantum Computing (ICSC) \& National Institute of Nuclear Physics (INFN)}
+{Sep 2023 -- Dec 2025}
+{Perugia, Italy}
+
+\begin{itemize}
+\item \textbf{ML Software Development:} Design, development and maintenance of \href{https://github.com/andreaadelfio/TSLies}{TSLies (link)}, an open-source Python framework for neural-network-based anomaly detection (FFNN, RNN, Bayesian Neural Networks) on multivariate time-series data (TensorFlow and TensorFlow-Probability -based pipeline). Applied to Fermi (NASA) satellite data.
+\item \textbf{Mentoring \& Technical Leadership:} Supervision and mentoring of junior researchers and Master’s students, with guidance on software engineering best practices and code optimization. Contribution to two Master Classes for programming laboratories.
+\item \textbf{Industrial Impact:} Implementation of the ATS framework for financial anomaly monitoring for Intesa Sanpaolo, bridging research and industry requirements.
+\item \textbf{Data Infrastructure:} Design of scalable Data Lakes and storage architectures for the Italian Computing Center infrastructure, ensuring reliability and reproducibility for large-scale datasets.
+\end{itemize}
+
+\divider
+
+\cvevent{Software Engineer}
+{Accenture Technology Solutions}
+{May 2021 -- Aug 2023}
+{Milan, Italy}
+
+\begin{itemize}
+\item \textbf{Full-Stack Engineering:} Development and maintenance of mission-critical enterprise software using Java, SQL and JavaScript.
+\item \textbf{Production Deployment:} Management of end-to-end software lifecycles, including version control, unit testing and deployment to production environments.
+\item \textbf{Agile \& DevOps:} Work within Scrum teams, contributing to CI/CD pipelines and workflow automation.
+\item \textbf{Consultancy:} Delivery of scalable technical solutions to international clients.
+\end{itemize}
+
+\cvsection{Key Projects}
+
+\cvachievement{\faCode}{TSLies – Time Series anomaLies}
+{Author and maintainer of an open-source Python package for anomaly detection in time series data based on neural networks and statistical learning methods.}
+
+\divider
+
+\cvachievement{\faChartLine}{Satellite Anomaly Detection}
+{Design and implementation of modular ML pipelines for transient and anomaly detection on large-scale satellite time series data.}
+
+\divider
+
+\cvachievement{\faDatabase}{Data Infrastructure}
+{Development of data-access, preprocessing pipelines and storage solutions for large datasets with reproducible workflows.}
+
+\end{paracol}
+
+
+
+
+\cvsection{Publications}
+
+\begin{itemize}
+\item “\textbf{Advances on TSLies: Time Series AnomaLIES, an Efficient Ma-
+chine Learning Based Anomaly Detection Framework}”. Andrea Adelfio et al. in: Astronomy and Computing
+(2025, under review).
+\item “\textbf{Scalable and Interoperable Data Management in the Spoke 3
+Big Data Infrastructure}”. Giacomo Coran et al. in: Astronomy and Computing (2025, under review)
+\item \href{https://doi.org/10.1109/PDP66500.2025.00062}{“\textbf{Anomaly Detection with Machine Learning on Time Series: Unveiling Lost Transients Data}”. Andrea Adelfio et al., in: Proceedings of the Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP). 2025.}
+\item \href{https://doi.org/10.1109/PDP66500.2025.00072}{“\textbf{Spoke 3 Big Data Management, Storage, and Archive Infrastructure}”. Giacomo Coran et al. in: Proceedings of the Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP). 2025.}
+\item \href{https://doi.org/10.22323/1.395.0998} {“\textbf{Searching for Very-High-Energy Electromagnetic Counterparts to Gravitational-Wave Events with the Cherenkov Telescope Array}”. Barbara Patricelli et al. in: Proceedings of the 37th International Cosmic Ray Conference. 2021.}
+\end{itemize}
+\end{document}
